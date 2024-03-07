@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall of Fame</title>
+    <link rel="stylesheet" href="./hallcss.css">
+    <link rel="icon" href="../Images/favicon-32x32.png" type="image">
+</head>
+<body>
+    <div class="container">
+        <!-- bara -->
+        <div class="stema">
+            <ul class="links">
+                <li id="side"><a href="#"><img src="./header_images/ABT_ic.png">Despre noi</a></li>
+                <li id="side"><a href="https://discord.gg/EWzGDfY8uT"><img src="./header_images/DISC_IC.png">Discord</a></li>
+                <li id="side"><a href="#"><img src="./header_images/MED_IC.png">Media</a></li>
+                <li id="middle"><a href="../front.html">Pagina principala</a></li>
+                <li id="side"><a href="#"><img src="./header_images/PAT_ic.png">Patreon</a></li>
+                <li id="side"><a href="https://docs.google.com/spreadsheets/d/1engodCEGsLYbmsu7TJpTq351sxJXWdbGujW-rKssAac/edit?usp=sharing"><img src="./header_images/LIST_ic.png">Lista mETA</a></li>
+                <li id="side"><a href="Reguli.html"><img src="./header_images/REG_ic.png">Reguli </a></li> 
+            </ul>
+        </div>
+
+    <div class="corpse">
+        <img id="stema" src="./header_images/logo.png">
+        <p id="paragraf">Bine ai venit la hall of fame-ul Romanian Phoenixes! Aici publicam membrii
+            cu o contributie semnificativa in cadrul echipei noastre.
+        </p>
+        <div class="row1">
+        <p id="titlul">1</p>
+        <p id="nume">2</p>
+        <p id="grad">3</p>
+        <p id="thanks">4</p>
+    </div>
+    </div>
+    <div class="bottomline">
+        <p id="cred">©:Romanian Phoenixes</p>
+        <p>by sofer</p>
+        <button class="buton-play" onclick="toggleAudio()"> II</button>
+
+
+        <audio id="audio" autoplay onended="playNext()"> 
+            <source src="./muzica2.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="audio2">
+            <source src="./muzica.mp3" type="audio/mp3">
+        </audio>
+        
+    </div>
+    </div>
+    <script>
+var currentAudio = document.getElementById('audio');
+        var nextAudio = document.getElementById('audio2');
+
+        function toggleAudio() {
+            var buton = document.querySelector('.buton-play');
+
+            if (currentAudio.paused) {
+                currentAudio.play();
+                buton.textContent = '=';
+            } else {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                buton.textContent = 'II';
+            }
+        }
+
+        function playNext() {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+            currentAudio = nextAudio;
+            nextAudio.play();
+        }
+    </script>
+</body>
+</html>

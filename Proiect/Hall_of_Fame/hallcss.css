@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/Background_Front3.png);
+    background-size: 1490px 800px;
+    backdrop-filter: blur(5px);
+    
+}
+.container ul li {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 10px;
+}   
+
+/* inceput bara sus */
+#middle {
+    font-size: 40px;
+    margin-inline: 20px;
+    padding-top: 0px;
+    width: 100px;
+    margin: 0 100px;
+
+}
+
+#side {
+    padding-top: 55px;
+}
+
+.links {
+
+    margin-bottom: 0px;
+    text-transform: uppercase;  
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 90px;
+    background-color: rgba(48, 43, 44, 1); 
+    
+}
+
+.links li {
+    margin-inline: 25px;  
+}
+li  img {
+    margin-right: 5px;
+ width: 21px; 
+ height: 21px; }
+
+
+a {
+    text-decoration: none;
+    color: #de9000;
+    transition: color 0.1s ease-out;
+
+}
+
+ul a:hover {
+    color: black;
+}
+
+/* sfarsit bara */
+
+.corpse {
+    margin: 0px 40px;
+    height: 670px;
+    width: 1400px;
+    background-color: rgba(48, 43, 44, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomline {
+    height: 34px;
+    background-color: gray;
+    color: gray;
+    display: flex;
+    padding-top: 8px;
+}
+
+.bottomline #cred {
+color: black;
+margin: 0 40px;
+}
+
+audio {
+    display: none; 
+}
+
+.buton-play {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 1100px;
+
+}
+
+#stema {
+    width: 120px;
+    height: 120px;
+    margin-inline: 640px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#paragraf{
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    align-items: center;
+
+    margin: 0px 390px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row1 {
+    display: flex;
+    border: solid red   ;
+    margin: 10px 50px;
+    inline-size: 20px;
+    
+}
+

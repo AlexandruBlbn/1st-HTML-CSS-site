@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/Background_Front3.png);
+    backdrop-filter: blur(5px);
+    background-size: 1920px 1080px;
+    
+}
+.container ul li {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 10px;
+}   
+
+/* inceput bara sus */
+#middle {
+    font-size: 40px;
+    margin-inline: 90px;
+    padding-top: 0px;
+    width: 100px;
+
+
+}
+.stema {
+
+
+}
+
+#side {
+    padding-top: 55px;
+}
+
+.links {
+
+
+    text-transform: uppercase;  
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100px;
+    background-color: rgba(48, 43, 44, 1);
+    padding-top: 10px;
+
+
+    
+}
+
+.links li {
+    margin-inline: 25px;  
+}
+li  img {
+    margin-right: 5px;
+ width: 21px; 
+ height: 21px; }
+
+
+a {
+    text-decoration: none;
+    color: #de9000;
+    transition: color 0.1s ease-out;
+
+}
+
+ul a:hover {
+    color: black;
+}
+
+/* sfarsit bara */
+
+.corpse {
+    margin: 0px 40px;
+    background-color: rgba(48, 43, 44, 0.9);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottomline {
+    height: 34px;
+    background-color: gray;
+    color: gray;
+    display: flex;
+    padding-top: 8px;
+}
+
+.bottomline #cred {
+color: black;
+margin: 0 40px;
+}
+
+audio {
+    display: none; 
+}
+
+.buton-play {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 1100px;
+
+}
+
+#stema {
+    width: 120px;
+    height: 120px;
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+
+.titlu {
+    padding-top: 10px;
+    line-height: 40px;
+    display: block;
+    margin: auto;
+}
+
+#paragraf1{
+    
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#paragraf2{
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    align-items: center;
+
+    margin: 0px 390px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reguli {
+    margin-top:  30px;
+}
+.reguli p {
+
+    line-height: 25px;
+    font-size: 19px;
+    margin: 5px 80px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    padding: 20px;
+    font-size: 25px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#subtitle {
+    padding-bottom: 20px;
+    font-size: 22px;
+    margin: 0px 120px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Header{
+
+}

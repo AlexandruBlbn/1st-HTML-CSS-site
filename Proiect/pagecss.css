@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('./Images/Background_front.png');
+background-size: 100%;
+
+
+   }
+
+.container {
+
+   }
+   .container ul li {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 10px;
+ 
+
+   }
+   .Header {
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: rgba(48, 43, 44, 0.8);
+    backdrop-filter: blur(5px);
+    width: 97%;
+    position: fixed;
+    margin-bottom: 455px;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+
+   }
+
+#stema {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding-top: 15px;
+    margin: 0 auto;    
+    justify-content: center;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.links {
+
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;       
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 30px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.links li {
+    padding-inline: 30px;
+    padding-top: 5px;
+    padding-bottom: 5;
+    margin: 2px 10px;   
+
+}
+
+a {
+    text-decoration: none;
+    color: #de9000;
+    transition: color 0.1s ease-out;
+
+}
+
+ul a:hover {
+    color: black;
+}
+
+  li  img {
+    margin-right: 5px;
+ width: 20px; 
+ height: auto; 
+}
+
+li a img {
+ margin-right: 10px;
+ width: 20px; 
+ height: auto; 
+}
+
+
+
+.bottom {
+    margin-top: 750px;
+    height: 550px;
+    background-color: rgba(48, 43, 44, 1);
+ 
+    border-radius: 6px 6px 0 0;
+
+}
+
+.bottomline {
+    height: 20px;
+    background-color: gray;
+    color: gray;
+    display: flex;
+
+    
+}
+
+.bottomline h4 {
+    color: black;
+    padding-left: 20px;
+    text-shadow: 1px 2px 3px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#headbottom {
+    text-align: center;
+    margin: 0 500px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease; 
+    }
+    
+
+#headbottom:hover {
+border-radius: 20px;
+background-color: #171616;
+
+}
+
+#headbottom h2 {
+    color: #de9000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 5px 5px black;
+    font-size: 30px;
+}
+
+#headbottom p {
+    text-shadow: 1px 4px 4px black;
+    font-size 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #de9000;
+}
+
+#headbottom p:hover {
+    text-shadow: 1px 4px 4px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffb833;
+    transition: color 0.5s ease-out;
+}
+
+#descbot {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 20px;
+    margin-top: 5px;
+}
+
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    font-size: 23px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 200px;
+}
+
+#squadron {
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+#squadron img {
+    width: 100px;
+}
+
+#squadron:hover {
+    border-radius: 20px;
+background-color: #171616;
+}
+
+#events {
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+#events img {
+    width: 100px;
+
+    }
+
+#events:hover {
+    border-radius: 20px;
+background-color: #171616;
+}
+
+/* ========================================== */
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    font-size: 23px;
+    color: #de9000;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 80px;
+    
+}
+
+#training {
+    margin: auto;
+    width: 650px;
+    height: 220px;
+    transition: background-color 0.3s ease; 
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#training img {
+    width: 110px;
+}
+#training:hover {
+    border-radius: 20px;
+background-color: #171616;
+}
+
+
+#hall_of_fame {
+    margin-left: 10px;
+    margin: auto;
+    width: 650px;
+    height: 220px;
+    transition: background-color 0.3s ease; 
+    border-radius: 20px;
+    
+}
+#hall_of_fame img {
+width: 110px;
+height: 110px;
+}
+
+
+
+#hall_of_fame:hover {
+    border-radius: 20px;
+background-color: #171616;
+}
+
+.bottom #bottomlinks {
+
+    text-decoration: none;
+    
+}

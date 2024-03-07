@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romanian Phoenixes </title> 
+        <link rel="icon" href="./Images/favicon-32x32.png" type="image">
+          
+    <link rel="stylesheet" href="./pagecss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <figure>
+        <img src="./Images/logo.png" id="stema" alt="logo">
+        <figcaption></p></figcaption>
+    </figure>
+    <ul class="links">
+        <li><img src="./Images/ABT_ic.png">Despre noi</li>
+        <li><a href="https://discord.gg/EWzGDfY8uT"><img src="./Images/DISC_IC.png">Discord</a></li>
+        <li><img src="./Images/MED_IC.png">Media</li>
+        <li><a href="./Rules/rules.html"><img src="./Images/REG_ic.png">Reguli</li> 
+        <li><img src="./Images/PAT_ic.png">Patreon</li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1engodCEGsLYbmsu7TJpTq351sxJXWdbGujW-rKssAac/edit?usp=sharing"><img src="./Images/LIST_ic.png">Lista mETA</a></li>
+        <li><a href="https://discord.gg/EWzGDfY8uT"><img src="./Images/APP_ic.png">Aplica!</a></li>
+    </ul>
+        </div>
+
+        <!-- HEADER -->
+        
+        <div id="space">
+        </div>
+        <div class="bottom">
+    <div id="headbottom">
+        <h2 id="headbottom_title">Mai multe</h2>
+        <p id="paragh_title">Squadron romanesc competitiv la SRB in care se urmareste dezvoltarea personala intr-un mediu activ si dinamic in care membiri dispun de multe facilitati pentru a ii ajuta se dezvolta.</p>
+    </div>     
+        <div class="row1">     
+        <div id="squadron">
+            <a href="./Reguli.html" id="bottomlinks">
+            <figure>
+            <img src="./Images/SQD_ic.png">
+            <figcaption><p>Squadron</p></figcaption>                
+            </figure>
+        <p id="descbot">
+            Nu apreciem cuvintele, iubim actiunile concrete. Amatori de senzatii tari, participam la luptele de Squadron Realistic Battles. Click pentru detalii!
+        </p>
+    </a>
+    </div>
+        <div id="events">
+            <figure>
+                <img src="./Images/EVE_ic.png">
+                <figcaption><p>Evenimente</p></figcaption>  
+        </figure>
+        <p id="descbot">
+            Ai sansa de a participa la turnee organizate de noi in care vei concura alaturi de colegii tai de squadron de fiecare data existand mici premii.
+        </p>
+    </div>
+    </div>  
+    <div class="row2"> 
+        <div id="training">
+            <figure>
+                <img src="./Images/ACAD_ic.png">
+                <figcaption><p>Training</p></figcaption>
+                
+        </figure>
+        <p id="descbot">Nu te pricepi sa bombardezi? Sau te afli mereu inconjurat de inamici? Noi te ajutam sa nu mai ai astfel de probleme prin posibilitatea de a face training personale in functie de nevoi!</p>
+        </div>
+        
+        <div id="hall_of_fame">
+            <a href="./Hall_of_Fame/hall.html" id="bottomlinks">
+            <figure>
+                <img src="./Images/HALL_ic.png">
+                <figcaption><p>Hall of Fame</p></figcaption>
+        </figure>
+        <p id="descbot">Mica lista cu persoanele importante ce au contribuit la dezvoltarea squadron-ului nostru.</p>
+    </a>
+        </div>
+       
+        </div>
+        </div>
+        <div class="bottomline">
+            <h4>©:Romanian Phoenixes</h4>
+            <p>by sofer</p>
+            
+        </div>
+    </div>
+    <script>
+    
+        var header = document.getElementsByClassName("Header");
+
+        // Obțineți înălțimea maximă pe care headerul o poate parcurge
+        var limitHeight = 100; // Schimbați la înălțimea dorită
+
+        // Ascultați evenimentul de derulare a paginii
+        window.onscroll = function() {
+            // Calculați distanța de deplasare pe verticală
+            var scrollDistance = document.body.scrollTop || document.documentElement.scrollTop;
+
+            // Actualizați poziția top a headerului în funcție de distanța de deplasare
+            header.style.top = (limitHeight - Math.min(limitHeight, scrollDistance)) + "px";
+        };
+    </script>
+</body>
+</html>
