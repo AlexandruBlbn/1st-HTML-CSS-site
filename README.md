@@ -1,0 +1,1 @@
+Hello, this is my first site made in VSC with HTML5 and CSS with some elements of JS. This is not finished and some things should be edited and worked on. This project was made in 4 days before winter holidays.
